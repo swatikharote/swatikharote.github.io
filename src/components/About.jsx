@@ -1,16 +1,16 @@
 
-import { Box, Button, Heading, Text, Image, Link } from '@chakra-ui/react'
+import { Box, Button, Heading, Text, Image, Link, Flex } from '@chakra-ui/react'
 import React from 'react'
 import { DownloadIcon, ViewIcon } from '@chakra-ui/icons'
 //import sinature from "../images/digital sintaure.png"
-import Resume from "../Images/Ratul_Mukherjee_Resume.pdf"
+import Resume from "../Images/Swati_Kharote_Resume.pdf"
 import image from "../Images/my pic.jpg"
 const About = () => {
     return (
         <Box mb={'40px'} id="about" className='about section'>
             <Box >
                 <Box position={'relative'} backgroundImage={'https://coolbackgrounds.io/images/backgrounds/white/white-triangle-369b8d2d.jpg'} marginBottom={{ base: "20px", sm: "0", md: "0", lg: "0", xl: "0", "2xl": "0" }}>
-                    <Box pt={'20px'} display={{ base: "", sm: "", md: "flex", lg: "flex", xl: "flex", "2xl": "flex" }} justifyContent={'space-between'} m={'auto'} width={{ base: "95%", sm: "90%", md: "80%", lg: "80%", xl: "80%", "2xl": "80%" }} h={'auto'}>
+                    <Flex flexDir="row-reverse" pt={'20px'} display={{ base: "", sm: "", md: "flex", lg: "flex", xl: "flex", "2xl": "flex" }} justifyContent={'space-between'} m={'auto'} width={{ base: "95%", sm: "90%", md: "80%", lg: "80%", xl: "80%", "2xl": "80%" }} h={'auto'}>
                         <Box mt={'20px'} width={{ base: "100%", sm: "100%", md: "60%", lg: "50%", xl: "50%", "2xl": "50%" }}>
 
                             <Box ml={{ base: "30%", sm: "30%", md: "", lg: "", xl: "", "2xl": "" }} display={{ base: "block", sm: "block", md: "none", lg: "none", xl: "none", "2xl": "none" }} width={{ base: "40%", sm: "40%", md: "40%", lg: "38%", xl: "38%", "2xl": "38%" }}>
@@ -25,19 +25,20 @@ const About = () => {
                                 </a>
 
                                 <br></br>
-                                <a target='_blank' href={'https://drive.google.com/file/d/16omf78PPQfo4_Ar8DybpUbNI5WHX5bh0/view?usp=sharing'}><Button fontSize={{ base: "12px", sm: "12px", md: "14px", lg: "14px", xl: "15px", "2xl": "auto" }} w={{ base: "auto", sm: "auto", md: "auto", lg: "auto", xl: "auto", "2xl": "auto" }} mr={{ base: "40px", sm: "5px", md: "", lg: "", xl: "", "2xl": "" }} ml={{ base: "-20px", sm: "-20px", md: "", lg: "", xl: "", "2xl": "" }} mt={{ base: "20px", sm: "20px", md: "0", lg: "0", xl: "0", "2xl": "0" }} marginLeft={'20px'} fontFamily={'Nunito,sans-serif'} _hover={'none'} p={{ base: "20px 25px", sm: "20px 25px", md: "20px 12px", lg: "20px 12px", xl: "20px 12px", "2xl": "20px 12px" }} borderRadius={'10px'} backgroundColor={'rgb(1, 164, 121)'} color={'white'}>View Resume<ViewIcon marginLeft={'10px'} /></Button></a>
+                                <a target='_blank' href={'https://drive.google.com/file/d/10aTWas0gM3DU-QK6T0gYkKcIGlxYo9xp/view?usp=sharing'}>
+                                    <Button fontSize={{ base: "12px", sm: "12px", md: "14px", lg: "14px", xl: "15px", "2xl": "auto" }} w={{ base: "auto", sm: "auto", md: "auto", lg: "auto", xl: "auto", "2xl": "auto" }} mr={{ base: "40px", sm: "5px", md: "", lg: "", xl: "", "2xl": "" }} ml={{ base: "-20px", sm: "-20px", md: "", lg: "", xl: "", "2xl": "" }} mt={{ base: "20px", sm: "20px", md: "0", lg: "0", xl: "0", "2xl": "0" }} marginLeft={'20px'} fontFamily={'Nunito,sans-serif'} _hover={'none'} p={{ base: "20px 25px", sm: "20px 25px", md: "20px 12px", lg: "20px 12px", xl: "20px 12px", "2xl": "20px 12px" }} borderRadius={'10px'} backgroundColor={'rgb(1, 164, 121)'} color={'white'}>View Resume<ViewIcon marginLeft={'10px'} /></Button></a>
                             </Box>
                         </Box>
                         <Box display={{ base: "none", sm: "none", md: "block", lg: "block", xl: "block", "2xl": "block" }} width={{ base: "40%", sm: "40%", md: "40%", lg: "38%", xl: "38%", "2xl": "38%" }}>
                             <Image className='home-img' h={"55%"} borderRadius={'40%'} src={image} />
                         </Box>
-                    </Box>
+                    </Flex>
                 </Box>
                 {/* persnal section */}
                 <Box position={'relative'} marginTop={{ base: "30px", sm: "30px", md: "50px", lg: "0", xl: "-50px", "2xl": "-50" }} borderRadius={'10px'} backgroundColor={'white'} top={{ base: "", sm: "", md: "90%", lg: "90%", xl: "90%", "2xl": "90%" }} left={'0'} right={'0'} marginLeft={'auto'} marginRight={'auto'} margin={'auto'} boxShadow={' rgba(0, 0, 0, 0.35) 0px 5px 15px;'} w={'82%'} h={{ base: "auto", sm: "auto", md: "270px", lg: "270px", xl: "230px", "2xl": "230px" }} display={{ base: "", sm: "", md: "flex", lg: "flex", xl: "flex", "2xl": "flex" }} >
                     <Box textAlign={'left'} w={{ base: "100%", sm: "100%", md: "35%", lg: "35%", xl: "35%", "2xl": "35%" }} >
                         <Box m={'15px 20px'} p={'10px'} pt={'30px'} backgroundColor={'rgb(238, 240, 242)'} h={'auto'} mt={{ base: "20px", sm: "20px", md: "30px0", lg: "30px", xl: "30px", "2xl": "30px" }} borderRadius={'10px'}>
-                            <Heading fontSize={'1.17em'} fontFamily={'Nunito,sans-serif'}>Personal Details</Heading>
+                            <Heading fontSize={'22px'} fontFamily={'Nunito,sans-serif'} >Personal Details</Heading>
                             <pre style={{ border: "1px solid rgb(235, 225, 225)", marginTop: "15px", marginBottom: '10px' }}></pre>
                             {/* <hr color='rgb(212, 218, 225)'></hr> */}
                             <Text lineHeight={'30px'} color={'black'} fontFamily={'Nunito,sans-serif'} fontWeight={'bold'} fontSize={'13px'} display={'inline'}>Email:</Text>

@@ -12,7 +12,7 @@ const Contact = () => {
         <Box mt={'50px'} id="contact">
             <Heading color={'rgb(1, 164, 121)'} fontFamily={'unito,sans-serif'} fontWeight={'semibold'} fontSize={'33px'} mb={'50px'} textAlign={'center'}>Contact Me</Heading>
             <Box w={'82%'} margin={'auto'} display={{ base: "", sm: "", md: "", lg: "flex", xl: "flex", "2xl": "flex" }} justifyContent={'space-between'}>
-                <Link id="contact-linkedin" to="https://www.linkedin.com/in/ratul-mukherjee-b07773186/" rel='noreferrer' target='_blank'>
+                <Link id="contact-linkedin" to="https://www.linkedin.com/in/swati-kharote-b094951b9/" rel='noreferrer' target='_blank'>
                     <Box mt={{ base: "20px", sm: "20px", md: "20px", lg: "5px", xl: "5px", "2xl": "5px" }}>
                         <Text mt={'10px'} ml={{ base: "46%", sm: "47%", md: "48%", lg: "42%", xl: "42%", "2xl": "42%" }} fontSize={'27px'}><BsLinkedin /></Text>
                         <Text mt={'5px'} fontFamily={'unito,sans-serif'} fontWeight={'bold'} fontSize={'22px'}>LinkedIn</Text>
@@ -26,14 +26,14 @@ const Contact = () => {
                         <Text mt={'15px'} fontFamily={'unito,sans-serif'} fontSize={'14px'}>You can connect with me on Github</Text>
                         <Text fontFamily={'unito,sans-serif'} mt={'15px'} color={'rgb(1, 164, 121)'} fontSize={'16px'}>Swati Kharote</Text>
                     </Box></Link>
-                <Link id='contact-phone' to="tel:+917585063951" rel='noreferrer' target='_blank'>
+                <Link id='contact-phone' to="tel:+9359981519" rel='noreferrer' target='_blank'>
                     <Box mt={{ base: "20px", sm: "20px", md: "20px", lg: "0", xl: "0", "2xl": "0" }}>
                         <Text fontSize={'27px'}><PhoneIcon /></Text>
                         <Text mt={'5px'} fontFamily={'unito,sans-serif'} fontWeight={'bold'} fontSize={'22px'}>Phone</Text>
                         <Text mt={'15px'} fontFamily={'unito,sans-serif'} fontSize={'14px'}>Here is My Phone Number</Text>
                         <Text fontFamily={'unito,sans-serif'} mt={'15px'} color={'rgb(1, 164, 121)'} fontSize={'16px'}>(+91)9359981519</Text>
                     </Box></Link>
-                <Link id="contact-email" to="mailto:patidarsourabh574@gmail.com" rel='noreferrer' target='_blank'>
+                <Link id="contact-email" to="mailto:kharoteswati31@gmail.com" rel='noreferrer' target='_blank'>
                     <Box mt={{ base: "20px", sm: "20px", md: "20px", lg: "0", xl: "0", "2xl": "0" }}>
                         <Text fontSize={'32px'}><EmailIcon /></Text>
                         <Text fontFamily={'unito,sans-serif'} fontWeight={'bold'} fontSize={'22px'}>Email</Text>
@@ -65,7 +65,7 @@ const Contact = () => {
             </Box>
             <Box w={isWidths ? "230px" : "100%"} textAlign={'center'} color={'white'} bg={'black'}>
                 <Box w={{ base: "50%", sm: "30%", md: "30%", lg: "20%", xl: "20%", "2xl": "20%" }} display={'flex'} margin={'auto'} mt={'25px'} h={'70px'} color={'white'} bg={'black'}>
-                    <Text margin={'auto'} fontSize={{ base: "10px", sm: "13px", md: "13px", lg: "15px", xl: "15px", "2xl": "15px" }} textAlign={'center'}>© 2023 Ratul. Design by Me</Text>
+                    <Text margin={'auto'} fontSize={{ base: "10px", sm: "13px", md: "13px", lg: "15px", xl: "15px", "2xl": "15px" }} textAlign={'center'}>© 2023 Swati. Design by Me</Text>
                 </Box>
             </Box>
         </Box>

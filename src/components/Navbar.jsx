@@ -4,7 +4,7 @@
 
 
 import React, { useState } from "react";
-import Resume from "../Images/Ratul_Mukherjee_Resume.pdf"
+import Resume from "../Images/Swati_Kharote_Resume.pdf"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import "./Navbar.css";
 

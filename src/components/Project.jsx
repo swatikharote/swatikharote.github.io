@@ -3,8 +3,10 @@ import React from 'react'
 import { FaGithub } from 'react-icons/fa';
 import { BiLinkExternal } from 'react-icons/bi'
 import { useMediaQuery } from "@chakra-ui/react"
-import first_project_img from "../Images/Apka_Market_Project.png"
-import second_project_img from "../Images/Apka_Market_Project.png"
+import first_project_img from "../Images/safe-travel.png"
+import second_project_img from "../Images/guarden-guru.png"
+import third_project_img from "../Images/dell-tech.png"
+import fourth_project_img from "../Images/retro-resale.png"
 import { Link } from 'react-router-dom';
 
 const Projects = () => {
@@ -81,7 +83,7 @@ const Projects = () => {
             {/* third project */}
             <Box className='project-card' mt={'80px'} pb={{ base: "30px", sm: "30px", md: "30px", lg: "30px", xl: "0", "2xl": "0" }} display={{ base: "", sm: "", md: "", lg: "", xl: "flex", "2xl": "flex" }} borderRadius={'10px'} h={'auto'} boxShadow={'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;'}>
                 <Box p={'20px'} borderRadius={'10px'} overflow={'hidden'} _hover={{ transform: 'scale(1.07)' }} transition={'all 0.3s'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "45%", "2xl": "45%" }} h={'100%'}>
-                    <Image borderRadius={'10px'} boxSizing={'border-box'} h={'auto'} w={'100%'} src="https://www.yourdesignpick.com/49152/yec193.jpg"></Image>
+                    <Image borderRadius={'10px'} boxSizing={'border-box'} h={'auto'} w={'100%'} src={third_project_img}></Image>
                 </Box>
                 <Box borderRadius={'10px'} boxShadow={{ base: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", sm: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", md: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", lg: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", xl: "unset", "2xl": "unset" }} textAlign={{ base: "center", sm: "center", md: "center", lg: "center", xl: "left", "2xl": "left" }} width={{ base: "100%", sm: "100%", md: "100%", lg: "90%", xl: "55%", "2xl": "55%" }} p={'30px'} margin={{ base: "center", sm: "center", md: "center", lg: "auto", xl: "", "2xl": "" }}>
                     <Heading className='project-title' mb={'15px'} color={'rgb(52, 58, 64)'} fontWeight={'semibold'} fontFamily={'Nunito,sans-serif'}>ORGANIC MARKET</Heading>
@@ -116,7 +118,7 @@ const Projects = () => {
             {/* fourth projects */}
             <Box className='project-card' mt={'80px'} pb={{ base: "30px", sm: "30px", md: "30px", lg: "30px", xl: "0", "2xl": "0" }} display={{ base: "", sm: "", md: "", lg: "", xl: "flex", "2xl": "flex" }} borderRadius={'10px'} h={'auto'} boxShadow={'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;'}>
                 <Box p={'20px'} borderRadius={'10px'} overflow={'hidden'} _hover={{ transform: 'scale(1.07)' }} transition={'all 0.3s'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "45%", "2xl": "45%" }} h={'100%'}>
-                    <Image borderRadius={'10px'} boxSizing={'border-box'} h={'auto'} w={'100%'} src="https://www.yourdesignpick.com/49152/yec193.jpg"></Image>
+                    <Image borderRadius={'10px'} boxSizing={'border-box'} h={'auto'} w={'100%'} src={fourth_project_img}></Image>
                 </Box>
                 <Box borderRadius={'10px'} boxShadow={{ base: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", sm: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", md: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", lg: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", xl: "unset", "2xl": "unset" }} textAlign={{ base: "center", sm: "center", md: "center", lg: "center", xl: "left", "2xl": "left" }} width={{ base: "100%", sm: "100%", md: "100%", lg: "90%", xl: "55%", "2xl": "55%" }} p={'30px'} margin={{ base: "center", sm: "center", md: "center", lg: "auto", xl: "", "2xl": "" }}>
                     <Heading className='project-title' mb={'15px'} color={'rgb(52, 58, 64)'} fontWeight={'semibold'} fontFamily={'Nunito,sans-serif'}>ORGANIC MARKET</Heading>
