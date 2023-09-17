@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8d37dbb.css",
-    "main.js": "/static/js/main.28ae29da.js",
+    "main.css": "/static/css/main.a6251108.css",
+    "main.js": "/static/js/main.f031d3ba.js",
     "static/js/787.596d14d7.chunk.js": "/static/js/787.596d14d7.chunk.js",
-    "static/media/my pic.jpg": "/static/media/my pic.1a03c76a4060f630d396.jpg",
     "static/media/guarden-guru.png": "/static/media/guarden-guru.7891d0761abfa732a5bc.png",
     "static/media/safe-travel.png": "/static/media/safe-travel.eb340964ca0b1ab4d26f.png",
     "static/media/dell-tech.png": "/static/media/dell-tech.85e06947dbe7bbfd718e.png",
     "static/media/retro-resale.png": "/static/media/retro-resale.168a38ec204ebf5abb18.png",
     "static/media/Swati_Kharote_Resume.pdf": "/static/media/Swati_Kharote_Resume.db1a971f83bb0650cb26.pdf",
+    "static/media/swati.jpg": "/static/media/swati.5794a4ea93670c665fb1.jpg",
     "index.html": "/index.html",
-    "main.b8d37dbb.css.map": "/static/css/main.b8d37dbb.css.map",
-    "main.28ae29da.js.map": "/static/js/main.28ae29da.js.map",
+    "main.a6251108.css.map": "/static/css/main.a6251108.css.map",
+    "main.f031d3ba.js.map": "/static/js/main.f031d3ba.js.map",
     "787.596d14d7.chunk.js.map": "/static/js/787.596d14d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8d37dbb.css",
-    "static/js/main.28ae29da.js"
+    "static/css/main.a6251108.css",
+    "static/js/main.f031d3ba.js"
   ]
 }
