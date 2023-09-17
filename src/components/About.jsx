@@ -29,9 +29,8 @@ const About = () => {
                                     fontFamily={'Nunito,sans-serif'} _hover={'none'} p={'20px 12px'}
                                     borderRadius={'10px'}
                                     backgroundColor={'rgb(1, 164, 121)'} color={'white'}>
-                                    <a id="resume-link-2" href={Resume} download={"Swati-Kharote-Resume"}>  Download Resume
-                                        <DownloadIcon marginLeft={'10px'} mt={{ base: "28px", sm: "28px", md: "4px", lg: "4px", xl: "4px", "2xl": "4px" }}
-                                            mb={{ base: "30px", sm: "30px", md: "4px", lg: "4px", xl: "4px", "2xl": "4px" }} /></a>
+                                    <a id="resume-link-2" href={Resume} download={"Swati-Kharote-Resume"}>Resume<DownloadIcon marginLeft={'10px'} mt={{ base: "28px", sm: "28px", md: "4px", lg: "4px", xl: "4px", "2xl": "4px" }}
+                                        mb={{ base: "30px", sm: "30px", md: "4px", lg: "4px", xl: "4px", "2xl": "4px" }} /></a>
                                 </Button>
 
                                 <br></br>
