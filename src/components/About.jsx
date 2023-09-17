@@ -35,7 +35,7 @@ const About = () => {
 
                                 <br></br>
 
-                                <a target='_blank' href={'https://drive.google.com/file/d/1H6oebltUEK42LhNl2NH_-FjHRTmyOd2i/view?usp=sharing'}>
+                                {/* <a target='_blank' href={'https://drive.google.com/file/d/1H6oebltUEK42LhNl2NH_-FjHRTmyOd2i/view?usp=sharing'}>
                                     <Button fontSize={{ base: "12px", sm: "12px", md: "14px", lg: "14px", xl: "15px", "2xl": "auto" }}
                                         w={{ base: "auto", sm: "auto", md: "auto", lg: "auto", xl: "auto", "2xl": "auto" }}
                                         mr={{ base: "40px", sm: "5px", md: "", lg: "", xl: "", "2xl": "" }}
@@ -45,7 +45,7 @@ const About = () => {
                                         p={{ base: "20px 25px", sm: "20px 25px", md: "20px 12px", lg: "20px 12px", xl: "20px 12px", "2xl": "20px 12px" }}
                                         borderRadius={'10px'} backgroundColor={'rgb(1, 164, 121)'} color={'white'}>View Resume<ViewIcon marginLeft={'10px'} />
                                     </Button>
-                                </a>
+                                </a> */}
 
                             </Box>
                         </Box>
