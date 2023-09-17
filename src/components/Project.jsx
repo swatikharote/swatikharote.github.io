@@ -86,9 +86,9 @@ const Projects = () => {
                     <Image borderRadius={'10px'} boxSizing={'border-box'} h={'auto'} w={'100%'} src={third_project_img}></Image>
                 </Box>
                 <Box borderRadius={'10px'} boxShadow={{ base: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", sm: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", md: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", lg: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", xl: "unset", "2xl": "unset" }} textAlign={{ base: "center", sm: "center", md: "center", lg: "center", xl: "left", "2xl": "left" }} width={{ base: "100%", sm: "100%", md: "100%", lg: "90%", xl: "55%", "2xl": "55%" }} p={'30px'} margin={{ base: "center", sm: "center", md: "center", lg: "auto", xl: "", "2xl": "" }}>
-                    <Heading className='project-title' mb={'15px'} color={'rgb(52, 58, 64)'} fontWeight={'semibold'} fontFamily={'Nunito,sans-serif'}>ORGANIC MARKET</Heading>
-                    <Text className='project-description' mb={'15px'} fontSize={'large'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "85%", "2xl": "85%" }}>The best online grocery store in India. bigbasket is an online supermarket for all your daily needs. Online shopping now made easy with a wide range of groceries and home needs.</Text>
-                    <Text mb={'15px'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "90%", "2xl": "90%" }} fontFamily={'Nunito,sans-serif'} fontSize={'large'} fontWeight={'bold'}>A collaborative project, built in 4 days by a team of 5 developers.</Text>
+                    <Heading className='project-title' mb={'15px'} color={'rgb(52, 58, 64)'} fontWeight={'semibold'} fontFamily={'Nunito,sans-serif'}>Dell Tech</Heading>
+                    <Text className='project-description' mb={'15px'} fontSize={'large'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "85%", "2xl": "85%" }}>This is ecommerse website where you can but all Dell brand products.</Text>
+                    <Text mb={'15px'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "90%", "2xl": "90%" }} fontFamily={'Nunito,sans-serif'} fontSize={'large'} fontWeight={'bold'}>An individual project build in 5 days of span.</Text>
                     <Box width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "80%", "2xl": "80%" }} display={'flex'} flexWrap={'wrap'}>
                         <Box m={'2px 2px'} backgroundColor={'rgb(1, 164, 121)'} color={'white'} borderRadius={'10px'} p={'1px 15px'} fontSize={'14px'} fontFamily={'Nunito,sans-serif'}>HTML</Box>
                         <Box m={'2px 2px'} backgroundColor={'rgb(1, 164, 121)'} color={'white'} borderRadius={'10px'} p={'1px 15px'} fontSize={'14px'} fontFamily={'Nunito,sans-serif'}>CSS</Box>
@@ -108,9 +108,9 @@ const Projects = () => {
                     </Box>
                     {/* button */}
                     <Box mt={'30px'}>
-                        <Link target='_blank' to="https://github.com/sourabh7909/Flowers-1800.com"><Button className='project-github-link' mb={isWidth ? "10px" : "0"} mr={'20px'} p={'15px'} backgroundColor={'pink'} _hover={'none'}><FaGithub fontSize={'20px'} mr={"10px"} /><Text ml={'10px'}>Github</Text></Button></Link>
+                        <Link target='_blank' to="https://github.com/swatikharote/adhesive-legs-8944"><Button className='project-github-link' mb={isWidth ? "10px" : "0"} mr={'20px'} p={'15px'} backgroundColor={'pink'} _hover={'none'}><FaGithub fontSize={'20px'} mr={"10px"} /><Text ml={'10px'}>Github</Text></Button></Link>
 
-                        <Link target='_blank' to="https://fluffy-sunflower-923368.netlify.app/"><Button className='project-deployed-link' ml={isWidth ? "-20px" : "0"} marginLeft={isWidt ? "10px" : "0"} p={'15px'} backgroundColor={'rgb(68, 164, 190)'} _hover={'none'}><BiLinkExternal fontSize={'20px'} /><Text ml={'10px'}>Live</Text></Button></Link>
+                        <Link target='_blank' to="https://64299d69a6d9131575ddb411--timely-klepon-d7cb9f.netlify.app/"><Button className='project-deployed-link' ml={isWidth ? "-20px" : "0"} marginLeft={isWidt ? "10px" : "0"} p={'15px'} backgroundColor={'rgb(68, 164, 190)'} _hover={'none'}><BiLinkExternal fontSize={'20px'} /><Text ml={'10px'}>Live</Text></Button></Link>
                     </Box>
                 </Box>
             </Box>
@@ -121,9 +121,9 @@ const Projects = () => {
                     <Image borderRadius={'10px'} boxSizing={'border-box'} h={'auto'} w={'100%'} src={fourth_project_img}></Image>
                 </Box>
                 <Box borderRadius={'10px'} boxShadow={{ base: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", sm: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", md: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", lg: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", xl: "unset", "2xl": "unset" }} textAlign={{ base: "center", sm: "center", md: "center", lg: "center", xl: "left", "2xl": "left" }} width={{ base: "100%", sm: "100%", md: "100%", lg: "90%", xl: "55%", "2xl": "55%" }} p={'30px'} margin={{ base: "center", sm: "center", md: "center", lg: "auto", xl: "", "2xl": "" }}>
-                    <Heading className='project-title' mb={'15px'} color={'rgb(52, 58, 64)'} fontWeight={'semibold'} fontFamily={'Nunito,sans-serif'}>ORGANIC MARKET</Heading>
-                    <Text className='project-description' mb={'15px'} fontSize={'large'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "85%", "2xl": "85%" }}>The best online grocery store in India. bigbasket is an online supermarket for all your daily needs. Online shopping now made easy with a wide range of groceries and home needs.</Text>
-                    <Text mb={'15px'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "90%", "2xl": "90%" }} fontFamily={'Nunito,sans-serif'} fontSize={'large'} fontWeight={'bold'}>A collaborative project, built in 4 days by a team of 5 developers.</Text>
+                    <Heading className='project-title' mb={'15px'} color={'rgb(52, 58, 64)'} fontWeight={'semibold'} fontFamily={'Nunito,sans-serif'}>Retro Resale</Heading>
+                    <Text className='project-description' mb={'15px'} fontSize={'large'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "85%", "2xl": "85%" }}>The best online Resale products store where you can buy second hand products of Electrical , Furniture,Home based products.</Text>
+                    <Text mb={'15px'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "90%", "2xl": "90%" }} fontFamily={'Nunito,sans-serif'} fontSize={'large'} fontWeight={'bold'}>An individual project build in 5 days of span.</Text>
                     <Box width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "80%", "2xl": "80%" }} display={'flex'} flexWrap={'wrap'}>
                         <Box m={'2px 2px'} backgroundColor={'rgb(1, 164, 121)'} color={'white'} borderRadius={'10px'} p={'1px 15px'} fontSize={'14px'} fontFamily={'Nunito,sans-serif'}>HTML</Box>
                         <Box m={'2px 2px'} backgroundColor={'rgb(1, 164, 121)'} color={'white'} borderRadius={'10px'} p={'1px 15px'} fontSize={'14px'} fontFamily={'Nunito,sans-serif'}>CSS</Box>
@@ -143,9 +143,9 @@ const Projects = () => {
                     </Box>
                     {/* button */}
                     <Box mt={'30px'}>
-                        <Link target='_blank' to="https://github.com/sourabh7909/Flowers-1800.com"><Button className='project-github-link' mb={isWidth ? "10px" : "0"} mr={'20px'} p={'15px'} backgroundColor={'pink'} _hover={'none'}><FaGithub fontSize={'20px'} mr={"10px"} /><Text ml={'10px'}>Github</Text></Button></Link>
+                        <Link target='_blank' to="https://github.com/swatikharote/tedious-view-7935/tree/main"><Button className='project-github-link' mb={isWidth ? "10px" : "0"} mr={'20px'} p={'15px'} backgroundColor={'pink'} _hover={'none'}><FaGithub fontSize={'20px'} mr={"10px"} /><Text ml={'10px'}>Github</Text></Button></Link>
 
-                        <Link target='_blank' to="https://fluffy-sunflower-923368.netlify.app/"><Button className='project-deployed-link' ml={isWidth ? "-20px" : "0"} marginLeft={isWidt ? "10px" : "0"} p={'15px'} backgroundColor={'rgb(68, 164, 190)'} _hover={'none'}><BiLinkExternal fontSize={'20px'} /><Text ml={'10px'}>Live</Text></Button></Link>
+                        <Link target='_blank' to="https://63fb79db25c1257fb4f01dd7--tedious-view-7935.netlify.app/"><Button className='project-deployed-link' ml={isWidth ? "-20px" : "0"} marginLeft={isWidt ? "10px" : "0"} p={'15px'} backgroundColor={'rgb(68, 164, 190)'} _hover={'none'}><BiLinkExternal fontSize={'20px'} /><Text ml={'10px'}>Live</Text></Button></Link>
                     </Box>
                 </Box>
             </Box>
